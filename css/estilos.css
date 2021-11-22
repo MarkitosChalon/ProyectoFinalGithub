@@ -190,8 +190,8 @@ table tr td{
 }
 .descripcion{
     font-size: 1em;
-    margin: 2px;
-    padding: 2px;
+    margin: 3px;
+    padding: 3px;
 }
 .nosotrosSection{
     grid-area: Nosotros;
@@ -204,7 +204,7 @@ table tr td{
     align-items: center;
     grid-area: Juan;
     color: white;
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 .integrante2{
     display: flex;
@@ -212,7 +212,7 @@ table tr td{
     align-items: center;
     grid-area: Marcos;
     color: white;
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 
 /*Contactos*/
@@ -234,7 +234,7 @@ table tr td{
     flex-direction: row;
     grid-area: servis;
     justify-content:space-around;
-    padding: 8vw;
+    padding: 7vw;
 }
 .bodyContacto{
     display: grid;

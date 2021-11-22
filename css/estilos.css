@@ -1,0 +1,345 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+a:visited{
+    color: white;
+}
+/*Index*/
+body{
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #292929 90%);
+}
+.navbar{
+    display: grid;
+    grid-area: nav;
+}
+.carrucel{
+    display: grid;
+    grid-area: carro;
+}
+.navBaja{
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    grid-area:navb;
+    font-size: 1em;
+}
+h1{
+    color: black;
+    background-color: #bdcad9;
+    background-image: linear-gradient(315deg, #bdcad9 0%, #e1dada 74%);
+    padding: 1%;
+    line-height: 10%;
+    font-weight: bold;
+    grid-area: h1;
+    font-size: 4.5em;
+}
+h2{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: normal;
+    grid-area: h2;
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: 1%;
+}
+.parrafo{
+    color: white;
+    font-weight: 2%;
+    margin: 1%;
+    text-align: center;
+    font-size: 1em;
+    }
+
+.bodyIndex{
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav"
+    "h1 h1 h1"
+    "carro carro carro"
+    "h2 h2 h2"
+    "main main main"
+    "pie pie pie";
+}
+.mainIndex{
+    grid-area:main;
+    display: flex;
+    align-items: center;
+}
+.oficina{
+    display: grid;
+    width: 20vw;
+}
+footer{
+    background-color: #000000;
+    background-image: linear-gradient(145deg, #000000 , #434343);
+    grid-area: pie;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    grid-template-areas: 
+    "redes navb mapa";
+}
+.redesSociales{
+    grid-area: redes;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    word-spacing: 6px;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 0.8vw;
+}
+.redes{
+    width: 2em;
+}
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    grid-area: mapa;
+    align-items: center;
+    color: white;
+    font-size: 1vw;
+    width: 20vw;
+}
+
+/*Menu y Submenu*/
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    position: relative;
+    font-size: 2vw;
+}
+li a{
+    text-decoration: none;
+    font-size: 1.6vw;
+}
+ul ul{
+    position: absolute;
+    display: none;
+}
+ul ul li{
+    display: block;
+}
+ul li:hover ul{
+    display: block;
+}
+ul li a:hover{
+    color: rgb(0, 0, 0) !important;
+    background-image: linear-gradient(to right, rgb(230, 230, 230),rgb(187, 187, 187));
+} 
+.animate__heartBeat{
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+/*Producciones*/
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.videos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Presupuestos*/
+table tr th{
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+table tr td{
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-transform: capitalize;
+}
+.table1{
+    background-color: white;
+    font-size: 1vw;
+}
+.table2{
+    color: white;
+    background-color: black;
+    font-size: 1vw;
+}
+
+/*Nosotros*/
+.bodyNosotros{
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav"
+    "h1 h1 h1"
+    "h2 h2 h2"
+    "Nosotros Nosotros Nosotros"
+    "Juan Juan Marcos"
+    "pie pie pie";
+}
+.descripcion{
+    font-size: 1em;
+    margin: 2px;
+    padding: 2px;
+}
+.nosotrosSection{
+    grid-area: Nosotros;
+    display: flex;
+    align-items: center;
+}
+.integrante1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: Juan;
+    color: white;
+    font-size: 1.2vw;
+}
+.integrante2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: Marcos;
+    color: white;
+    font-size: 1.2vw;
+}
+
+/*Contactos*/
+#formulario{
+    grid-area: form;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+.contactoInfo{
+    display: flex;
+    flex-direction:column;
+    grid-area: informacion;
+    align-items:center;
+}
+.serviciosAmigos{
+    display: flex;
+    flex-direction: row;
+    grid-area: servis;
+    justify-content:space-around;
+    padding: 8vw;
+}
+.bodyContacto{
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav"
+    "h1 h1 h1"
+    "form informacion mapa"
+    "servis servis servis"
+    "pie pie pie";
+    align-items: center;
+}
+
+@media (max-width: 576px){
+    li a{
+        font-size: 0.5em;
+    }
+    .navBaja{
+        font-size: 0.4em;
+    }
+    .parrafo{
+        font-size: 1em;
+    }
+    h1{
+        font-size: 1.5em;
+        padding: 8px;
+    }
+    h2{
+        font-size: 2em;
+    }
+    h3{
+        font-size: 3em;
+    }
+    h4{
+        font-size: 0.8em;
+    }
+    .oficina{
+        width: 25em;
+    }
+    .redes{
+        width: 4em;
+    }
+}
+@media (min-width: 577px){
+    li a{
+        font-size: 0.5em;
+    }
+    .navBaja{
+        font-size: 0.5em;
+    }
+    .parrafo{
+        font-size: 1.5em;
+    }
+    h1{
+        font-size: 2em;
+        padding: 10px;
+    }
+    h2{
+        font-size: 3em;
+    }
+    h3{
+        font-size: 3em;
+    }
+    h4{
+        font-size: 0.8em;
+    }
+    .oficina{
+        width: 30em;
+    }
+    .redes{
+        width: 5em;
+    }
+}
+@media (min-width: 992px) and (max-width:1100px){
+    li a{
+        font-size: 0.8em;
+    }
+    .navBaja{
+        font-size: 0.7em;
+    }
+    .parrafo{
+        font-size: 2em;
+    }
+    h1{
+        font-size: 2em;
+        padding: 14px;
+    }
+    h2{
+        font-size: 3.5em;
+    }
+    h3{
+        font-size: 3em;
+    }
+    h4{
+        font-size: 3em;
+    }
+    .oficina{
+        width: 40em;
+    }
+    .redes{
+        width: 5em;
+    }
+    .mapa{
+        width: 38em;
+    }
+    .ubicacion{
+        font-size: 0.4em;
+    }
+}

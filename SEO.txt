@@ -1,0 +1,58 @@
+Se agregaron los siguientes cambios, para mejorar el SEO de la Web.
+
+1) Aplicacion de KEYWORDS en cada seccion de la web.
+*Keywords:
+.INDEX 
+<meta name="keywords" content="PRODUCTORA, AUDIOVISUAL, CREACION,CONTENIDO, VIDEO, FOTOS">
+
+.PRODUCCIONES
+<meta name="keywords" content="PRODUCCIONES, VIDEO, FOTOS, FIESTA, 15, AÑOS, ANIVERSARIO,
+FESTEJO, PROMOCION, EVENTO, BACKSTAGE, MODA, VISUAL, AUDIOVISUAL">
+
+.PRESUPUESTOS
+<meta name="keywords" content="FIESTA, 15, AÑOS, CASAMIENTOS,
+PRESUPUESTOS, SESION, CUMPLEAÑOS">
+
+.NOSOTROS
+<meta name="keywords" content="INTEGRANTES, OFICINA, AGRUPACION, MIEMBROS, FOTOGRAFO,
+VIDEOGRAFO, REDES, SOCIALES, YOUTUBE">
+
+.CONTACTO
+<meta name="keywords" content="CONTACTANOS, UBICACION, WHATSAPP, FOTOGRAFO, VIDEOGRAFO,
+MAQUILLAJE, TRANSPORTE, MUSICA, ILUMINCACION">
+-------------------------------------------------------------------------------------------
+2) Aplicacion de DESCRIPTION a cada una de las secciones de la web
+*Description:
+
+.INDEX
+<meta name="description" content="Pagina de inicio de PROYECTO PENDIENTE productura de
+contenido audiovisual, eventos sociales y privados">
+
+.PRODUCCIONES
+<meta name="description" content="Muestra de producciones fotograficas y videos 
+realizados para distintos clientes">
+
+.PRESUPUESTOS
+<meta name="description" content="Descripcion de los distintos tipos de eventos
+realizados, juntos con sus respectivos precios">
+
+.NOSOTROS
+<meta name="description" content="Explicacion de la formacion de la productora y perfil
+de sus integrantes">
+
+.CONTACTO
+<meta name="description" content="Distintas formas de comunicacion con la productora.
+Redes sociales, Whatsapp y servicios amigos de la casa">
+------------------------------------------------------------------------------------------
+COMPLEMENTARIO
+
+3) Se comprimio la calidad de las imagenes en la seccion "PRODUCCIONES"
+4) Se comprimio la calidad del video en la seccion "PRODUCCIONES"
+4) Se cambiaron las imagenes de iconos en REDES SOCIALES.
+5) Se comprimio la calidad de los iconos de REDES SOCIALES
+6) Se le dio el tamaño correspondiente a imagenes de REDES SOCIALES
+7) Se comprimio la calidad de las imagenes de OFICINA
+8) Se comprimio la calidad de las imagenes de MAPA
+9) Se reviso la ortografia de los textos y se mejoraron en donde era necesario.
+10) Se reviso la aplicacion del "RESPONSIVE DESING"
+
